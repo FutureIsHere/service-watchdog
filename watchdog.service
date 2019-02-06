@@ -1,0 +1,12 @@
+[Unit]
+Description=The script is checking state of a service and trying to recover it.
+After=default.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python36 /home/vlad/Projects/Nordcloud/service-watchdog/service-watchdog.py -service=lighttpd -c=/home/vlad/Projects/Nordcloud/service-watchdog/service-watchdog.ini -email=test@gmail.com
+TimeoutStartSec=0
+StandardOutput=syslog
+StandardError=syslog
+[Install]
+WantedBy=default.target

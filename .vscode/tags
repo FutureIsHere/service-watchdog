@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+argparse	../service-watchdog.py	/^import argparse$/;"	kind:namespace	line:3
+args	../service-watchdog.py	/^args = vars(parser.parse_args())$/;"	kind:variable	line:12
+email_address	../service-watchdog.py	/^email_address = args["email"]$/;"	kind:variable	line:17
+get_service_status	../service-watchdog.py	/^def get_service_status(name):$/;"	kind:function	line:19
+os	../service-watchdog.py	/^import os$/;"	kind:namespace	line:1
+parser	../service-watchdog.py	/^parser = argparse.ArgumentParser(description='Processing input parameters')$/;"	kind:variable	line:5
+restart_interval	../service-watchdog.py	/^restart_interval = args["restart_interval"]$/;"	kind:variable	line:15
+restart_limit	../service-watchdog.py	/^restart_limit = args["restart_limit"]$/;"	kind:variable	line:16
+service	../service-watchdog.py	/^service = args["service"]$/;"	kind:variable	line:13
+service-watchdog.py	../service-watchdog.py	1;"	kind:file	line:1
+subprocess	../service-watchdog.py	/^import subprocess$/;"	kind:namespace	line:2
+verify_interval	../service-watchdog.py	/^verify_interval = args["verify_interval"]$/;"	kind:variable	line:14
